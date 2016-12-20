@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8"/>
+		<title>move</title>
+		<style type="text/css">
+		body{
+			background-color: gray;
+		}
+			.jingshen{
+				perspective: 1000px;
+				perspective-origin: 950px 400px;
+
+			}
+			.box{
+				transform-style: preserve-3d;	
+				width: 2100px;
+				height: 800px;
+			/*	background-color: lightgray;*/
+			/*	transform:rotateY(0deg);*/
+			transform-origin: 980px 430px;
+			transition-duration: 10s;
+			}
+			.box:hover{
+				transform:rotateY(3600deg);
+			}
+			div div div{
+				width: 60px;
+				height: 60px;
+				position:absolute;
+				top: 400px;
+				left: 950px; 
+
+			}
+			.div1{
+				background-color: red;
+				transform:translateZ(120px)translateY(-120px);
+			}
+			.div2{
+				background-color: blue;
+				transform:rotateY(30deg)translateZ(120px)translateY(-110px);
+			}
+			.div3{
+				background-color: pink;
+				transform:rotateY(60deg)translateZ(120px)translateY(-100px);
+			}
+			.div4{
+				background-color: gold;
+				transform:rotateY(90deg)translateZ(120px)translateY(-90px);
+			}
+			.div5{
+				background-color: #FFC125;
+				transform:rotateY(120deg)translateZ(120px)translateY(-80px);
+			}
+			.div6{
+				background-color: #FF3E96;
+				transform:rotateY(150deg)translateZ(120px)translateY(-70px);
+			}
+			.div7{
+				background-color: #CDCD00;
+				transform:rotateY(180deg)translateZ(120px)translateY(-60px);
+			}
+			.div8{
+				background-color: #98FB98;
+				transform:rotateY(210deg)translateZ(120px)translateY(-50px);
+			}
+			.div9{
+				background-color: #9400D3;
+				transform:rotateY(240deg)translateZ(120px)translateY(-40px);
+			}
+			.div10{
+				background-color:#8B8682;
+				transform:rotateY(270deg)translateZ(120px)
+				translateY(-20px);
+			}
+			.div11{
+				background-color: #00CD00;
+				transform:rotateY(300deg)translateZ(120px)translateY(-10px);
+			}
+			.div12{
+				background-color:#CD6889;
+				transform:rotateY(330deg)translateZ(120px)
+			translateY(0px)
+		}
+
+
+
+			.div13{
+				background-color: red;
+				transform:translateZ(120px)translateY(10px)
+				;
+			}
+			.div14{
+				background-color: blue;
+				transform:rotateY(30deg)translateZ(120px)translateY(20px);
+			}
+			.div15{
+				background-color: pink;
+				transform:rotateY(60deg)translateZ(120px)translateY(30px);
+			}
+			.div16{
+				background-color: gold;
+				transform:rotateY(90deg)translateZ(120px)translateY(40px);
+			}
+			.div17{
+				background-color: #FFC125;
+				transform:rotateY(120deg)translateZ(120px)translateY(50px);
+			}
+			.div18{
+				background-color: #FF3E96;
+				transform:rotateY(150deg)translateZ(120px)translateY(60px);
+			}
+			.div19{
+				background-color: #CDCD00;
+				transform:rotateY(180deg)translateZ(120px)translateY(70px);
+			}
+			.div20{
+				background-color: #98FB98;
+				transform:rotateY(210deg)translateZ(120px)translateY(80px);
+			}
+			.div21{
+				background-color: #9400D3;
+				transform:rotateY(240deg)translateZ(120px)translateY(90px);
+			}
+			.div22{
+				background-color:#8B8682;
+				transform:rotateY(270deg)translateZ(120px)
+				translateY(100px);
+			}
+			.div23{
+				background-color: #00CD00;
+				transform:rotateY(300deg)translateZ(120px)translateY(110px);
+			}
+			.div24{
+				background-color:#CD6889;
+				transform:rotateY(330deg)translateZ(120px)
+				translateY(120px);
+			}
+			
+			.div25{
+				background-color: red;
+				transform:translateZ(120px)translateY(130px)
+				;
+			}
+			.div26{
+				background-color: blue;
+				transform:rotateY(30deg)translateZ(120px)translateY(140px);
+			}
+			.div27{
+				background-color: pink;
+				transform:rotateY(60deg)translateZ(120px)translateY(150px);
+			}
+			.div28{
+				background-color: gold;
+				transform:rotateY(90deg)translateZ(120px)translateY(160px);
+			}
+			.div29{
+				background-color: #FFC125;
+				transform:rotateY(120deg)translateZ(120px)translateY(170px);
+			}
+			.div30{
+				background-color: #FF3E96;
+				transform:rotateY(150deg)translateZ(120px)translateY(180px);
+			}
+			.div31{
+				background-color: #CDCD00;
+				transform:rotateY(180deg)translateZ(120px)translateY(190px);
+			}
+			.div32{
+				background-color: #98FB98;
+				transform:rotateY(210deg)translateZ(120px)translateY(200px);
+			}
+			.div33{
+				background-color: #9400D3;
+				transform:rotateY(240deg)translateZ(120px)translateY(210px);
+			}
+			.div34{
+				background-color:#8B8682;
+				transform:rotateY(270deg)translateZ(120px)
+				translateY(220px);
+			}
+			.div35{
+				background-color: #00CD00;
+				transform:rotateY(300deg)translateZ(120px)translateY(230px);
+			}
+			.div36{
+				background-color:#CD6889;
+				transform:rotateY(330deg)translateZ(120px)
+				translateY(240px);
+			}
+			.div0{
+				width: 60px;
+				height: 60px;
+				background-color: white;
+				border:1px black dashed;
+				transform: translateY(60px)
+
+			}
+		</style>
+	</head>
+	<body>
+		<div class="jingshen">
+			<div class="box">
+				<div class="div0"></div>
+				<div class="div1"></div>
+				<div class="div2"></div>
+				<div class="div3"></div>
+				<div class="div4"></div>
+				<div class="div5"></div>
+				<div class="div6"></div>
+				<div class="div7"></div>
+				<div class="div8"></div>
+				<div class="div9"></div>
+				<div class="div10"></div>
+				<div class="div11"></div>
+				<div class="div12"></div>
+
+				<div class="div13"></div>
+				<div class="div14"></div>
+				<div class="div15"></div>
+				<div class="div16"></div>
+				<div class="div17"></div>
+				<div class="div18"></div>
+				<div class="div19"></div>
+				<div class="div20"></div>
+				<div class="div21"></div>
+				<div class="div22"></div>
+				<div class="div23"></div>
+				<div class="div24"></div>
+
+				<div class="div25"></div>
+				<div class="div26"></div>
+				<div class="div27"></div>
+				<div class="div28"></div>
+				<div class="div29"></div>
+				<div class="div30"></div>
+				<div class="div31"></div>
+				<div class="div32"></div>
+				<div class="div33"></div>
+				<div class="div34"></div>
+				<div class="div35"></div>
+				<div class="div36"></div>
+
+
+			</div>
+		</div>
+	</body>
+</html>
